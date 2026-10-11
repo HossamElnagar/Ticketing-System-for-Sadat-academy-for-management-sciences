@@ -1,0 +1,85 @@
+# ================================
+# Compiled output
+# ================================
+/dist
+/build
+/node_modules
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Test & coverage
+# ================================
+/coverage
+/.nyc_output
+
+# ================================
+# Runtime data
+# ================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# IDEs and editors
+# ================================
+# JetBrains (IntelliJ, WebStorm, etc.)
+/.idea
+*.iml
+
+# Eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# VSCode — keep shared settings, ignore personal ones
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ================================
+# Temp / cache
+# ================================
+.temp
+.tmp
+.cache
+.eslintcache
+.prettiercache
